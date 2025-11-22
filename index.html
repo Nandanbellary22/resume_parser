@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Hi, I'm Nandan Bellary</h1>
+        <p>Python Developer | AIML Enthusiast | Tech Enthusiast</p>
+        <nav>
+            <a href="{{ url_for('home') }}">Home</a>
+            <a href="{{ url_for('contact') }}">Contact</a>
+        </nav>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>I’m a passionate developer who loves building modern web apps using Python and Flask.</p>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Portfolio Website with Flask</li>
+            <li>To-Do List App</li>
+            <li>Web scraping</li>
+            <li>Adventure game</li>
+            <li>Calculator</li>
+            <li>Data analyser</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 Nandan Bellary</p>
+    </footer>
+</body>
+</html>
